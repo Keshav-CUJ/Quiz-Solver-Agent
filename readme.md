@@ -18,7 +18,7 @@ It is fully autonomous and powered by:
 
 ---
 
-# 📂 **Folder Structure**
+#  **Folder Structure**
 
 ```
 project/
@@ -42,7 +42,7 @@ project/
 
 # ⚙️ **Installation Guide**
 
-## 1️⃣ Create Virtual Environment
+## 1️ Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -51,7 +51,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 ---
 
-## 2️⃣ Install Python Dependencies
+## 2️ Install Python Dependencies
 
 Use the provided requirements file:
 
@@ -71,7 +71,7 @@ Dependencies include:
 
 ---
 
-## 3️⃣ Install Playwright Chromium
+## 3️ Install Playwright Chromium
 
 (Needed for JS-rendered pages)
 
@@ -81,7 +81,7 @@ playwright install chromium
 
 ---
 
-## 4️⃣ Install **FFmpeg** (Required for Whisper)
+## 4️ Install **FFmpeg** (Required for Whisper)
 
 🔗 Download FFmpeg (Windows builds):
 [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
@@ -101,7 +101,7 @@ ffmpeg -version
 
 ---
 
-## 5️⃣ Install **Tesseract OCR**
+## 5️ Install **Tesseract OCR**
 
 Required for OCR on image-based tasks.
 
@@ -124,7 +124,7 @@ tesseract --version
 
 ---
 
-## 6️⃣ Configure Environment Variables
+## 6️ Configure Environment Variables
 
 Create a `.env` file (Or just rename .env.example to .env):
 
@@ -135,7 +135,7 @@ EMAIL=your_email_here
 
 ---
 
-# 🚀 **How to Run the API Server**
+#  **How to Run the API Server**
 
 Start FastAPI:
 
@@ -151,7 +151,7 @@ http://localhost:8000
 
 ---
 
-# 🔌 **API Endpoint Usage**
+#  **API Endpoint Usage**
 
 Your server exposes:
 
@@ -193,7 +193,7 @@ The quiz runs **asynchronously in the background**.
 
 ---
 
-# 🧠 **How the Autonomous Agent Works**
+#  **How the Autonomous Agent Works**
 
 From your `solve_quiz_series.py` logic: 
 
@@ -224,7 +224,7 @@ From your `solve_quiz_series.py` logic:
 
 ---
 
-# 🧪 **Running Locally Without API**
+#  **Running Locally Without API**
 
 Edit bottom of `solve_quiz_series.py`:
 
